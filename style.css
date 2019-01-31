@@ -1,0 +1,42 @@
+.titleOfPage {
+  font-family: 'OptimusPrinceps';
+  font-size: 40px;
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: grey;
+}
+
+.topPart {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+
+.bkgdimg0 {
+  background-image: url(/bkgdimg0.png);
+  /*background-image: url(https://picsum.photos/200/300);*/
+  background-size: cover;
+  background-position: right;
+  background-color: black;
+
+}
+
+.burntBkgd {
+  background-color: Orange;
+}
+
+p {
+  color: grey;
+}
+
+
+
+
+@font-face {
+    font-family: 'optimusprincepsregular';
+    src: url("fonts/optimusprinceps.ttf-webfont.woff2") format("woff2"),
+         url("fonts/optimusprinceps.ttf-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+
+}
