@@ -1,3 +1,20 @@
+h1 {
+  font-family: 'OptimusPrinceps';
+  font-size: 30px;
+  color: black;
+    -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white;
+}
+
+p {
+  text-align: left;
+  font-family: 'OptimusPrinceps';
+}
+
+h2 {
+  font-family: 'OptimusPrinceps';
+}
+
 .titleOfPage {
   font-family: 'OptimusPrinceps';
   font-size: 40px;
@@ -11,9 +28,40 @@
   margin-bottom: 150px;
 }
 
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+  background-color: black;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 180px;
+}
+
+.Credits {
+  margin-left: auto;
+  justify-self: flex-end;
+}
+
+.greybkgd {
+  background-color: lightgrey;
+}
+
+.blackBkgd {
+  background-color: darkslategrey;
+}
+
+.searchArea {
+  background-color: darkslategrey;
+}
+
+.search {
+  margin-top: 10px;
+}
 
 .bkgdimg0 {
-  background-image: url(/bkgdimg0.png);
+  /*background-image: url(/images/bkgdimg0.png);*/
   /*background-image: url(https://picsum.photos/200/300);*/
   background-size: cover;
   background-position: right;
@@ -21,16 +69,18 @@
 
 }
 
+.Information{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .burntBkgd {
   background-color: Orange;
 }
 
-p {
+p.pTitle {
   color: grey;
 }
-
-
-
 
 @font-face {
     font-family: 'optimusprincepsregular';
