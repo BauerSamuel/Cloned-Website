@@ -61,8 +61,7 @@ h2 {
 }
 
 .bkgdimg0 {
-  /*background-image: url(/images/bkgdimg0.png);*/
-  /*background-image: url(https://picsum.photos/200/300);*/
+  background-image: url(/images/bkgdimg0.png);
   background-size: cover;
   background-position: right;
   background-color: black;
