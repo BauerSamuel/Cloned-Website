@@ -23,6 +23,11 @@ h2 {
   -webkit-text-stroke-color: grey;
 }
 
+.burntBkgd p{
+  font-size: 17px;
+  text-align: center;
+}
+
 .topPart {
   margin-top: 150px;
   margin-bottom: 150px;
