@@ -2,7 +2,7 @@ h1 {
   font-family: 'OptimusPrinceps';
   font-size: 30px;
   color: black;
-    -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: white;
 }
 
@@ -88,8 +88,8 @@ p.pTitle {
 
 @font-face {
     font-family: 'optimusprincepsregular';
-    src: url("fonts/optimusprinceps.ttf-webfont.woff2") format("woff2"),
-         url("fonts/optimusprinceps.ttf-webfont.woff") format("woff");
+    src: url("/fonts/optimusprinceps.ttf-webfont.woff2") format("woff2"),
+         url("/fonts/optimusprinceps.ttf-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 
